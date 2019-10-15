@@ -1,4 +1,11 @@
+import arrayMethods from './arrayMethods';
+
 import 'bootstrap';
 import '../styles/main.scss';
 
-console.log('It works!');
+
+const init = () => {
+  arrayMethods.init();
+};
+
+init();
